@@ -74,6 +74,14 @@ h1{
 }
 
 .skill img{
-    height: 100%;
     aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.realisation{
+    
 }
