@@ -13,17 +13,90 @@
             <!-- Relie l'html avec la feuille de style-->
             <link rel="stylesheet" href="styles/style.css" type="text/css" />
 
-             <!--Ajout de la librairie TailWindCss-->
+            <!--Ajout de la librairie TailWindCss-->
             <script src="https://cdn.tailwindcss.com"></script>
     </head>
 
     <body>
 
         <div class="slider">
+
+            <!--Image de fond-->
             <img src="img/backgroundpurple.png" class="slider-background">
+            
             <div class="slider-content">
-                <h1> Matéo LEGRAND</h1>
-                <p>Développeur Full-Stack</p>
+
+                <!--Titre avec nom-->
+                <!--Utilisation de TailWindCss pour une font size de 2.25rem-->
+                <h1 class="text-8xl"> Matéo LEGRAND</h1>
+
+                <!--Paragraphe avec ma formation-->
+                <!--Utilisation de TailWindCss pour une font size de 6rem-->
+                <p class="text-4xl">Développeur Full-Stack</p>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <div class="boxed">
+                <div class="flex">
+
+                    <!--Utilisation de TailWindCss pour une font size de 3rem-->
+                    <div>
+                        <h2 class="text-4xl">À propos de moi</h2>
+                    </div>
+
+                    <!--Utilisation de TailWindCss pour une width de 80%-->
+                    <div class="w-4/5 text-xl leading-normal">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum justo arcu, sit amet interdum libero rutrum ut. In placerat ultricies consequat. Quisque sed bibendum risus, eget porttitor velit. Donec venenatis risus turpis, feugiat semper felis suscipit ut. Duis vulputate a mauris ac pretium. Proin convallis tellus sit amet gravida ultrices. Integer faucibus mauris at congue posuere. Nulla volutpat nunc vitae mollis finibus. Aliquam vitae hendrerit nibh. Mauris at orci vel erat venenatis iaculis sed id lacus. Praesent ornare metus ut placerat pretium. Aliquam in arcu enim. </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section dark">
+
+            <div class="boxed text-center">
+
+                <!--Utilisation de TailWindCss pour faire un margin bottom de 3rem avec une font size de 3rem-->
+                <h2 class="text-4xl mb-24">Mes compétences</h2>
+
+                <div class="flex gap-5">
+
+                    <!--Utilisation de TailWindCss pour une width de 25%-->
+                    <div class="w-1/4 skill">
+
+                        <img src="img/HTML5_logo_and_wordmark.svg.png">
+
+                        <!--Utilisation de TailWindCss pour une width de 25%-->
+                        <h3 class="mt-2.5 text-black font-bold">HTML</h3>
+
+                    </div>
+
+                        <!--Utilisation de TailWindCss pour une width de 25%-->
+                    <div class="w-1/4 skill">
+
+                        <img src="img/CSS-Logo.png">
+
+                        <!--Utilisation de TailWindCss pour une width de 25%-->
+                        <h3 class="mt-2.5 text-black font-bold">CSS</h3>
+                    
+                    </div>
+
+                        <!--Utilisation de TailWindCss pour une width de 25%-->
+                    <div class="w-1/4 skill">
+
+                        <img src="img/JavaScript-Logo.png">
+
+                        <!--Utilisation de TailWindCss pour une width de 25%-->
+                        <h3 class="mt-2.5 text-black font-bold">JavaScript</h3>
+
+                    </div>
+
+                </div>
             </div>
 
         </div>
