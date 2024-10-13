@@ -4,6 +4,9 @@
             <!-- Pour mettre les charactère à l'utf8-->
             <meta charset="utf-8" />
 
+
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+
             <!-- Titre de la page web-->
             <title>Mon Portofiolio</title>
 
@@ -18,6 +21,26 @@
     </head>
 
     <body>
+
+        <header>
+            <div class="boxed">
+                <div class="flex aligncenter text-center* space-between">
+                    <a href="" class="header-logo">
+                        <img src="img/66154208e9b332c598edfd0e_logo-lc.png">
+                    </a>
+                    <ul class="header-menu">
+                        <li><a href="/">Accueil</a></li>
+                        <li><a href="/">À propos de moi</a></li>
+                        <li><a href="/">Mes compétences</a></li>
+                        <li><a href="/">Mes réalisation</a></li>
+                    </ul>
+
+                    <button id="toggle-theme">Changer de thème</button>
+
+                </div>
+
+            </div>
+        </header>
 
         <div class="slider">
 
@@ -39,15 +62,15 @@
 
         <div class="section">
             <div class="boxed">
-                <div class="flex">
+                <div class="flex toColumn">
 
                     <!--Utilisation de TailWindCss pour une font size de 3rem-->
                     <div>
-                        <h2 class="text-4xl">À propos de moi</h2>
+                        <h2 class="text-4xl wm100">À propos de moi</h2>
                     </div>
 
                     <!--Utilisation de TailWindCss pour une width de 80%-->
-                    <div class="w-4/5 text-xl leading-normal">
+                    <div class="w-4/5 text-xl leading-normal wm100">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum justo arcu, sit amet interdum libero rutrum ut. In placerat ultricies consequat. Quisque sed bibendum risus, eget porttitor velit. Donec venenatis risus turpis, feugiat semper felis suscipit ut. Duis vulputate a mauris ac pretium. Proin convallis tellus sit amet gravida ultrices. Integer faucibus mauris at congue posuere. Nulla volutpat nunc vitae mollis finibus. Aliquam vitae hendrerit nibh. Mauris at orci vel erat venenatis iaculis sed id lacus. Praesent ornare metus ut placerat pretium. Aliquam in arcu enim. </p>
                     </div>
                     
@@ -167,7 +190,7 @@
     </body>
     
     <!-- Relie l'html avec le script -->
-    <script src="js/app.js"></script>
+    <script src="./app.js"></script>
 </html>
 
 <!--<a href="mailto:votreadresse@mail.fr">Contactez-moi !</a>   permet de mettre la page mail avec  mon adresse mail deja mis dans le message-->
